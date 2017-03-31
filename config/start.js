@@ -8,7 +8,7 @@ const config = {
     entry: [
         "webpack-hot-middleware/client?reload=true",
         // 这里是你的入口文件
-        "./src/index.js",
+        "./index.js",
     ],
     output: { //输出目录
         publicPath: "",
@@ -42,7 +42,7 @@ const config = {
             }
         }]
     },
-    devtool: 'source-map',
+    devtool: "#inline-source-map",
     plugins: [
         new webpack.optimize.OccurrenceOrderPlugin(),
         new webpack.HotModuleReplacementPlugin(),

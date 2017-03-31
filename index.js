@@ -1,9 +1,9 @@
-import alt from "../alt.js";
+import alt from "./alt.js";
 import connectToStores from 'alt-utils/lib/connectToStores';
 import React,{Component} from "react";
 import {render} from "react-dom";
-import DemoStore from "../_store/demo.js";
-import DemoAction from "../_action/demo.js";
+import DemoStore from "./_store/demo.js";
+import DemoAction from "./_action/demo.js";
 
 @connectToStores
 class Demo extends Component{
