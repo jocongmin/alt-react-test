@@ -3,7 +3,8 @@ import alt from "../alt.js";
 class DemoActions{
 	constructor() {
 		this.generateActions(
-				'updateTodo'
+				'updateTodo',
+				'updateTestData'
 			)
 	}
 }

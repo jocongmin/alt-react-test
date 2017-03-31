@@ -19,7 +19,10 @@ class Demo extends Component{
 	}
 	render(){
 		return(
+			<div>
+				<div onClick={DemoAction.updateTestData.bind(DemoAction,'newsdflkjsdfklsdkjfkdjsfj')}>{this.props.testData}</div>
 				<div onClick={DemoAction.updateTodo.bind(DemoAction,'我是上看到房价是打飞机')}>{this.props.todos}</div>
+			</div>
 			)
 	}
 }
