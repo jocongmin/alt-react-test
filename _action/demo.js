@@ -1,9 +1,10 @@
 import alt from "../alt.js";
 
 class DemoActions{
-	updateTodo(test){
-		console.log(test,'action test')
-		return {test}
+	constructor() {
+		this.generateActions(
+				'updateTodo'
+			)
 	}
 }
 

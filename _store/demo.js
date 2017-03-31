@@ -14,7 +14,7 @@ class DemoStore{
 	updateTodo(todo){
 		console.log(todo,'store todo')
 		this.setState({
-			todos:todo.test
+			todos:todo[0]
 		})
 	}
 }

@@ -10,7 +10,8 @@ app.use(webpackDevMiddleware(compiler, {
     noInfo: true,
     stats: {
         colors: true,
-        progress: true
+        progress: true,
+        inline:true
     }
 }));
 app.use(webpackHotMiddleware(compiler, {

@@ -42,6 +42,7 @@ const config = {
             }
         }]
     },
+    devtool: 'source-map',
     plugins: [
         new webpack.optimize.OccurrenceOrderPlugin(),
         new webpack.HotModuleReplacementPlugin(),
